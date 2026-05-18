@@ -5,7 +5,7 @@
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
-      "version": "0.0.1"
+      "version": "0.0.3"
     },
     "title": "{{appTitle}}",
     "description": "{{appDescription}}",
@@ -21,7 +21,7 @@
         "type": "OData",
         "settings": {
           "annotations": [],
-          "odataVersion": "4.01"
+          "odataVersion": "4.0"
         }
       }
     },
@@ -30,6 +30,9 @@
         "incidents-display": {
           "semanticObject": "incidents",
           "action": "display",
+          "title": "{{appTitle}}",
+          "subTitle": "{{appDescription}}",
+          "icon": "sap-icon://alert",
           "signature": {
             "parameters": {},
             "additionalParameters": "allowed"
