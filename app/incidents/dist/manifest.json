@@ -10,7 +10,7 @@
 			]
 		},
 		"applicationVersion": {
-			"version": "0.0.1"
+			"version": "0.0.3"
 		},
 		"title": "{{appTitle}}",
 		"description": "{{appDescription}}",
@@ -35,6 +35,9 @@
 				"incidents-display": {
 					"semanticObject": "incidents",
 					"action": "display",
+					"title": "{{appTitle}}",
+					"subTitle": "{{appDescription}}",
+					"icon": "sap-icon://alert",
 					"signature": {
 						"parameters": {},
 						"additionalParameters": "allowed"
